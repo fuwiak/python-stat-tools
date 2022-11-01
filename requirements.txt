@@ -1,3 +1,5 @@
+pdfkit
+jinja2
 streamlit
 numpy
 pandas
