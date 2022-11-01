@@ -40,8 +40,8 @@ class MultiApp:
 
     def run(self):
 
-        st.sidebar.title("Python Stat Tools v3.2")
-        st.sidebar.subheader("by Ken Harmon")
+        st.sidebar.title("Kazachstan News Analusis")
+        st.sidebar.subheader("by Quaantum AI")
         st.session_state.gs_URL = st.sidebar.text_input("Public Google Sheet URL:","https://docs.google.com/spreadsheets/d/1Fx7f6rM5Ce331F9ipsEMn-xRjUKYiR3R_v9IDBusUUY/edit#gid=0") 
                
         app = st.sidebar.radio(
