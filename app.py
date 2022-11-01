@@ -4,6 +4,9 @@ from apps import quant, discrete, normal, proportions, studentt, allttests, chis
 st.set_page_config(layout="wide")
 app = MultiApp()
 
+#add multiple pages
+
+
 # Add all your application here
 app.add_app("Quantitative Stats", quant.app)
 app.add_app("Discrete Probability", discrete.app)
